@@ -7,6 +7,7 @@ import "bootstrap";
 
 //include your index.scss file into the bundle
 import "../styles/index.scss";
+import "../styles/cardContainer.scss";
 
 //import your own components
 import Home from "./component/home.jsx";
