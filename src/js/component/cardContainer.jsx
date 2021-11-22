@@ -39,7 +39,36 @@ const CardContainer = () => {
 					role="tabpanel"
 					aria-labelledby="pills-home-tab">
 					<div className="row">
-						
+						<Card
+							imgSrc="http://lorempixel.com/300/200/nature"
+							imgAlt="..."
+							title="Málaga"
+							text="5 días y 3 noches"></Card>
+						<Card
+							imgSrc="http://lorempixel.com/300/200/nature"
+							imgAlt="..."
+							title="Málaga"
+							text="5 días y 3 noches"></Card>
+						<Card
+							imgSrc="http://lorempixel.com/300/200/nature"
+							imgAlt="..."
+							title="Málaga"
+							text="5 días y 3 noches"></Card>
+						<Card
+							imgSrc="http://lorempixel.com/300/200/nature"
+							imgAlt="..."
+							title="Málaga"
+							text="5 días y 3 noches"></Card>
+						<Card
+							imgSrc="http://lorempixel.com/300/200/nature"
+							imgAlt="..."
+							title="Málaga"
+							text="5 días y 3 noches"></Card>
+						<Card
+							imgSrc="http://lorempixel.com/300/200/nature"
+							imgAlt="..."
+							title="Málaga"
+							text="5 días y 3 noches"></Card>
 					</div>
 				</div>
 				<div
@@ -48,7 +77,36 @@ const CardContainer = () => {
 					role="tabpanel"
 					aria-labelledby="pills-offers-tab">
 					<div className="row">
-						
+						<Card
+							imgSrc="http://lorempixel.com/300/200/nature"
+							imgAlt="..."
+							title="Málaga"
+							text="5 días y 3 noches"></Card>
+						<Card
+							imgSrc="http://lorempixel.com/300/200/nature"
+							imgAlt="..."
+							title="Málaga"
+							text="5 días y 3 noches"></Card>
+						<Card
+							imgSrc="http://lorempixel.com/300/200/nature"
+							imgAlt="..."
+							title="Málaga"
+							text="5 días y 3 noches"></Card>
+						<Card
+							imgSrc="http://lorempixel.com/300/200/nature"
+							imgAlt="..."
+							title="Málaga"
+							text="5 días y 3 noches"></Card>
+						<Card
+							imgSrc="http://lorempixel.com/300/200/nature"
+							imgAlt="..."
+							title="Málaga"
+							text="5 días y 3 noches"></Card>
+						<Card
+							imgSrc="http://lorempixel.com/300/200/nature"
+							imgAlt="..."
+							title="Málaga"
+							text="5 días y 3 noches"></Card>
  					</div>
 				</div>
 			</div>
