@@ -7,8 +7,8 @@ import CardContainer from "./cardContainer.jsx";
 import Carrousel from "./carrousel.jsx";
 import HeaderTop from "./headerTop.jsx";
 import Navbar from "./navbar.jsx";
+import SearchBar from "./searchBar.jsx";
 
-//create your first component
 const Home = () => {
 	return (
 		<div>
@@ -19,7 +19,7 @@ const Home = () => {
 			<div className="container">
 				<Carrousel></Carrousel>
 			</div>
-
+			<SearchBar />
 			<CardContainer></CardContainer>
 		</div>
 	);
