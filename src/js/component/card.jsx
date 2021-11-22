@@ -11,12 +11,12 @@ const Card = props => {
 					alt={props.imgAlt}
 				/>
 				<div className="card-img-overlay">
-					<h5 className="card-title">{props.title}</h5>
+					<h5 className="card-title fs-4">{props.title}</h5>
 					<p className="card-text">{props.text}</p>
 					<a
 						type="button"
-						className="btn btn-primary position-absolute bottom-0 end-0 mb-2 me-2 fw-bold">
-						Reserva ahora
+						className="btn btn-primary position-absolute bottom-0 end-0 mb-2 me-2 fw-bold fs-4">
+						{props.buttonText}
 					</a>
 				</div>
 			</div>
@@ -28,7 +28,8 @@ Card.propTypes = {
 	imgSrc: PropTypes.string,
 	imgAlt: PropTypes.string,
 	title: PropTypes.string,
-	text: PropTypes.string
+	text: PropTypes.string,
+	buttonText: PropTypes.string
 };
 
 export default Card;

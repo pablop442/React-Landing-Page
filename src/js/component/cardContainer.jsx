@@ -4,10 +4,13 @@ import Card from "./card.jsx";
 const CardContainer = () => {
 	return (
 		<div className="container mt-4">
-			<ul className="nav nav-pills mb-3" id="pills-tab" role="tablist">
+			<ul
+				className="nav nav-pills mb-3 d-flex justify-content-center"
+				id="pills-tab"
+				role="tablist">
 				<li className="nav-item" role="presentation">
 					<button
-						className="nav-link active"
+						className="nav-link active fw-bold"
 						id="pills-home-tab"
 						data-bs-toggle="pill"
 						data-bs-target="#pills-home"
@@ -20,7 +23,7 @@ const CardContainer = () => {
 				</li>
 				<li className="nav-item" role="presentation">
 					<button
-						className="nav-link"
+						className="nav-link fs-5 fw-bold"
 						id="pills-offers-tab"
 						data-bs-toggle="pill"
 						data-bs-target="#pills-offers"
@@ -43,32 +46,38 @@ const CardContainer = () => {
 							imgSrc="http://lorempixel.com/300/200/nature"
 							imgAlt="..."
 							title="Málaga"
-							text="5 días y 3 noches"></Card>
+							text="5 días y 3 noches"
+							buttonText="59€  >>"></Card>
 						<Card
 							imgSrc="http://lorempixel.com/300/200/nature"
 							imgAlt="..."
 							title="Málaga"
-							text="5 días y 3 noches"></Card>
+							text="5 días y 3 noches"
+							buttonText="59€  >>"></Card>
 						<Card
 							imgSrc="http://lorempixel.com/300/200/nature"
 							imgAlt="..."
 							title="Málaga"
-							text="5 días y 3 noches"></Card>
+							text="5 días y 3 noches"
+							buttonText="59€  >>"></Card>
 						<Card
 							imgSrc="http://lorempixel.com/300/200/nature"
 							imgAlt="..."
 							title="Málaga"
-							text="5 días y 3 noches"></Card>
+							text="5 días y 3 noches"
+							buttonText="59€  >>"></Card>
 						<Card
 							imgSrc="http://lorempixel.com/300/200/nature"
 							imgAlt="..."
 							title="Málaga"
-							text="5 días y 3 noches"></Card>
+							text="5 días y 3 noches"
+							buttonText="59€  >>"></Card>
 						<Card
 							imgSrc="http://lorempixel.com/300/200/nature"
 							imgAlt="..."
 							title="Málaga"
-							text="5 días y 3 noches"></Card>
+							text="5 días y 3 noches"
+							buttonText="59€  >>"></Card>
 					</div>
 				</div>
 				<div
@@ -81,33 +90,39 @@ const CardContainer = () => {
 							imgSrc="http://lorempixel.com/300/200/nature"
 							imgAlt="..."
 							title="Málaga"
-							text="5 días y 3 noches"></Card>
+							text="5 días y 3 noches"
+							buttonText="59€  >>"></Card>
 						<Card
 							imgSrc="http://lorempixel.com/300/200/nature"
 							imgAlt="..."
 							title="Málaga"
-							text="5 días y 3 noches"></Card>
+							text="5 días y 3 noches"
+							buttonText="59€  >>"></Card>
 						<Card
 							imgSrc="http://lorempixel.com/300/200/nature"
 							imgAlt="..."
 							title="Málaga"
-							text="5 días y 3 noches"></Card>
+							text="5 días y 3 noches"
+							buttonText="59€  >>"></Card>
 						<Card
 							imgSrc="http://lorempixel.com/300/200/nature"
 							imgAlt="..."
 							title="Málaga"
-							text="5 días y 3 noches"></Card>
+							text="5 días y 3 noches"
+							buttonText="59€  >>"></Card>
 						<Card
 							imgSrc="http://lorempixel.com/300/200/nature"
 							imgAlt="..."
 							title="Málaga"
-							text="5 días y 3 noches"></Card>
+							text="5 días y 3 noches"
+							buttonText="59€  >>"></Card>
 						<Card
 							imgSrc="http://lorempixel.com/300/200/nature"
 							imgAlt="..."
 							title="Málaga"
-							text="5 días y 3 noches"></Card>
- 					</div>
+							text="5 días y 3 noches"
+							buttonText="59€  >>"></Card>
+					</div>
 				</div>
 			</div>
 		</div>
