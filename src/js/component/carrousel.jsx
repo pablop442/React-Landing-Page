@@ -1,6 +1,5 @@
 // Import React
 import React from "react";
-import PropTypes from "prop-types";
 //Import Components
 import SlideOne from "./slide1.jsx";
 import SlideTwo from "./slide2.jsx";
@@ -33,14 +32,18 @@ const Carrousel = props => {
 			</div>
 			<div className="carousel-inner">
 				<SlideOne
-					title="Agencia de Viajes"
-					text="Te ayudamos a conseguir tu destino ideal."></SlideOne>
+					title="The best destinations, competitive prices"
+					text="In 4Geeks Travel our mission is to make you have a memorable vacation"></SlideOne>
 				<SlideTwo
-					title="Agencia de Viajes"
-					text="Te ayudamos a conseguir tu destino ideal."></SlideTwo>
+					title="Plane tickets, packages, hotels and more "
+					text="Try our flight finder. Choose a destination and we will show you the best prices"></SlideTwo>
 				<SlideThree
-					title="Agencia de Viajes"
-					text="Te ayudamos a conseguir tu destino ideal."></SlideThree>
+					title={
+						<>
+							Don´t miss our <i>All Inclusive</i> packages
+						</>
+					}
+					text="Make your holiday a once in a lifetime adventure"></SlideThree>
 			</div>
 			<button
 				className="carousel-control-prev"
@@ -65,7 +68,5 @@ const Carrousel = props => {
 		</div>
 	);
 };
-// Carrousel.PropTypes = {
 
-// };
 export default Carrousel;
