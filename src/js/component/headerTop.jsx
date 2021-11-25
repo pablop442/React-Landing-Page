@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo4Geeks from "../../img/logo-4geeks azul.png";
+import logo4Geeks from "../../img/logo4geeksAzul2.png";
 
 const HeaderTop = () => {
 	return (
@@ -9,12 +9,11 @@ const HeaderTop = () => {
 				<a className="navbar-brand" href="#">
 					<img
 						src={logo4Geeks}
-						alt=""
-						width="45"
+						alt="4Geeks Logo"
 						height="45"
-						className="d-inline-block align-text-top me-3"
+						className="d-inline-block me-3"
 					/>
-					<span className="align-middle fs-3 text">
+					<span className="align-middle fs-3 text text-primary fw-bolder fst-italic">
 						4Geeks Travel
 					</span>
 				</a>
