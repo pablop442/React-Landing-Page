@@ -28,12 +28,22 @@ const Navbar = () => {
 						</li>
 						<li className="nav-item">
 							<a className="nav-link active" href="#">
-								Link
+								About
 							</a>
 						</li>
 						<li className="nav-item">
 							<a className="nav-link active" href="#">
-								Disabled
+								Vacations
+							</a>
+						</li>
+						<li className="nav-item">
+							<a className="nav-link active" href="#">
+								Offers
+							</a>
+						</li>
+						<li className="nav-item">
+							<a className="nav-link active" href="#">
+								All inclusive
 							</a>
 						</li>
 					</ul>
@@ -41,11 +51,13 @@ const Navbar = () => {
 						<input
 							className="form-control me-2"
 							type="search"
-							placeholder="Search"
+							placeholder="Flights, hotels, more..."
 							aria-label="Search"
 						/>
-						<button className="btn btn-light" type="submit">
-							Search
+						<button
+							className="btn btn-info text-nowrap"
+							type="submit">
+							Take me
 						</button>
 					</form>
 				</div>
