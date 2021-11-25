@@ -1,6 +1,8 @@
+//Import React
 import React from "react";
-import SpecialOffers from "./specialOffers.jsx";
 
+//Import Component
+import SpecialOffers from "./specialOffers.jsx";
 import BestDestinations from "./bestDestinations.jsx";
 
 const CardContainer = () => {
