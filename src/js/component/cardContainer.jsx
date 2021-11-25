@@ -1,5 +1,7 @@
 import React from "react";
-import Card from "./card.jsx";
+import SpecialOffers from "./specialOffers.jsx";
+
+import BestDestinations from "./bestDestinations.jsx";
 
 const CardContainer = () => {
 	return (
@@ -18,7 +20,7 @@ const CardContainer = () => {
 						role="tab"
 						aria-controls="pills-home"
 						aria-selected="true">
-						Mejores destinos
+						Best Destinations
 					</button>
 				</li>
 				<li className="nav-item" role="presentation">
@@ -31,99 +33,13 @@ const CardContainer = () => {
 						role="tab"
 						aria-controls="pills-offers"
 						aria-selected="false">
-						Ofertas
+						Special Offers
 					</button>
 				</li>
 			</ul>
 			<div className="tab-content" id="pills-tabContent">
-				<div
-					className="tab-pane fade show active"
-					id="pills-home"
-					role="tabpanel"
-					aria-labelledby="pills-home-tab">
-					<div className="row">
-						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
-						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
-						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
-						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
-						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
-						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
-					</div>
-				</div>
-				<div
-					className="tab-pane fade"
-					id="pills-offers"
-					role="tabpanel"
-					aria-labelledby="pills-offers-tab">
-					<div className="row">
-						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
-						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
-						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
-						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
-						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
-						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
-					</div>
-				</div>
+				<BestDestinations></BestDestinations>
+				<SpecialOffers></SpecialOffers>
 			</div>
 		</div>
 	);

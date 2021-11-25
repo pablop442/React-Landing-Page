@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-
+import { FaChevronCircleRight } from "react-icons/fa";
 const Card = props => {
 	return (
 		<div className="col-12 col-md-6 col-lg-4">
@@ -15,8 +15,12 @@ const Card = props => {
 					<p className="card-text">{props.text}</p>
 					<a
 						type="button"
-						className="btn btn-primary position-absolute bottom-0 end-0 mb-2 me-2 fw-bold fs-4">
+						className="btn btn-primary position-absolute bottom-0 end-0 mb-2 me-3 fw-bold fs-4">
 						{props.buttonText}
+						<FaChevronCircleRight
+							size="28px"
+							className="mb-1 ms-2"
+						/>
 					</a>
 				</div>
 			</div>
