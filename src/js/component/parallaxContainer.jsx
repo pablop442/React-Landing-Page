@@ -1,7 +1,11 @@
+//Import React
 import React from "react";
-import discover from "../../img/discoverTheWorldBlue.jpg";
 
+//Import Parallax
 import { Parallax } from "react-parallax";
+
+//Import Images
+import discover from "../../img/discoverTheWorldBlue.jpg";
 
 const ParallaxContainer = () => (
 	<div className="container">
