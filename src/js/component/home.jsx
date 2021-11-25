@@ -9,19 +9,18 @@ import HeaderTop from "./headerTop.jsx";
 import Navbar from "./navbar.jsx";
 import SearchBar from "./searchBar.jsx";
 import Footer from "./footer.jsx";
+import BlogCard from "./blogCard.jsx";
 
 const Home = () => {
 	return (
 		<div>
 			<HeaderTop></HeaderTop>
-
 			<Navbar></Navbar>
-
-			<div className="container">
-				<Carrousel></Carrousel>
-			</div>
+			<Carrousel></Carrousel>
 			<SearchBar />
+			<BlogCard />
 			<CardContainer></CardContainer>
+
 			<Footer />
 		</div>
 	);
