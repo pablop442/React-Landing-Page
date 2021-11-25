@@ -10,7 +10,7 @@ import "../styles/carrousel.scss";
 import "../styles/cardContainer.scss";
 import "../styles/navbar.scss";
 import "../styles/blogCard.scss";
-
+import "../styles/parallaxContainer.scss";
 //import your own components
 import Home from "./component/home.jsx";
 
