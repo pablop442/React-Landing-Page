@@ -4,7 +4,7 @@ import React from "react";
 //Import PropTypes
 import PropTypes from "prop-types";
 
-//Import Image
+//Import Images
 import cityImg from "../../img/city.jpg";
 
 const SlideThree = props => {

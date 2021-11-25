@@ -1,7 +1,7 @@
 //Import React
 import React from "react";
 
-//Import component
+//Import Component
 import Card from "./card.jsx";
 
 //Import images

@@ -1,5 +1,6 @@
 // Import React
 import React from "react";
+
 //Import Components
 import SlideOne from "./slide1.jsx";
 import SlideTwo from "./slide2.jsx";

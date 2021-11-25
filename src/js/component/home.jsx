@@ -1,7 +1,7 @@
 //Import React
 import React from "react";
 
-//Import components
+//Import Components
 import CardContainer from "./cardContainer.jsx";
 import Carrousel from "./carrousel.jsx";
 import HeaderTop from "./headerTop.jsx";

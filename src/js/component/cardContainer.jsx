@@ -1,7 +1,7 @@
 //Import React
 import React from "react";
 
-//Import components
+//Import Component
 import SpecialOffers from "./specialOffers.jsx";
 import BestDestinations from "./bestDestinations.jsx";
 

@@ -4,7 +4,7 @@ import React from "react";
 //Import PropTypes
 import PropTypes from "prop-types";
 
-//Import React Icons
+//Import Icons
 import { FaChevronCircleRight } from "react-icons/fa";
 
 const Card = props => {
