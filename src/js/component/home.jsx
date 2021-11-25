@@ -18,8 +18,9 @@ const Home = () => {
 			<Navbar></Navbar>
 			<Carrousel></Carrousel>
 			<SearchBar />
-			<CardContainer></CardContainer>
 			<BlogCard />
+			<CardContainer></CardContainer>
+
 			<Footer />
 		</div>
 	);

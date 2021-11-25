@@ -3,35 +3,30 @@ import React from "react";
 
 //Import styles
 import { FcLike } from "react-icons/fc";
-import porto from "../../img/PortoOk.jpg";
+import BrooklynBridge from "../../img/BrooklynBridge.jpg";
 
 const BlogCard = () => {
 	return (
 		<div className="container">
-			<div className="card mb-3">
+			<div className="card mb-5" id="blog-card">
 				<div className="row g-0">
 					<div className="col-md-4">
 						<img
-							src={porto}
+							src={BrooklynBridge}
 							className="img-fluid rounded-start"
-							alt="..."
+							alt="Brooklyn Bridge, NYC"
 						/>
 					</div>
 					<div className="col-md-8">
 						<div className="card-body">
-							<p className="card-text">
-								<small className="text-muted">
-									For limited time only...
-								</small>
-							</p>
+							<h2 className="card-title">Special Sale!</h2>
 							<h5 className="card-title">
-								Special Sale! we <FcLike size="35px" /> New York{" "}
+								We <FcLike size="35px" /> <b>New York</b>{" "}
 							</h5>
 							<p className="card-text">
-								There is no place on the planet even remotely
-								like Iceland. Incomparable and amazing, an
-								Iceland vacation should be on every travel
-								enthusiast’s bucket list.
+								It’s a time like no other in New York City, with
+								something new (or renewed) at every turn—don’t
+								you want to say you were there?
 							</p>
 							<button
 								type="button"
@@ -54,7 +49,7 @@ const BlogCard = () => {
 												className="modal-title"
 												id="exampleModalLabel">
 												Leave us your contact
-												information and we will call you
+												information
 											</h5>
 											<button
 												type="button"
