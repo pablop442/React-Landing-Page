@@ -56,41 +56,41 @@ const CardContainer = () => {
 					aria-labelledby="pills-home-tab">
 					<div className="row">
 						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€"></Card>
+							imgSrc={newYork}
+							imgAlt="New York"
+							title="New York"
+							text="Flight from Madrid"
+							buttonText="390€"></Card>
 						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€ "></Card>
+							imgSrc={andorra}
+							imgAlt="Andorra"
+							title="Andorra"
+							text="5 days and 3 nights"
+							buttonText="299€"></Card>
 						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€ "></Card>
+							imgSrc={newDelhi}
+							imgAlt="Taj Mahal"
+							title="New Delhi"
+							text="Flight + 7 days and 5 nights"
+							buttonText="799€"></Card>
 						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€ "></Card>
+							imgSrc={porto}
+							imgAlt="Porto Portugal"
+							title="Porto"
+							text="5 days and 3 nights"
+							buttonText="249€ "></Card>
 						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€ "></Card>
+							imgSrc={london}
+							imgAlt="Westminster Palace"
+							title="London"
+							text="4 days and 2 nights"
+							buttonText="199€ "></Card>
 						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€ "></Card>
+							imgSrc={paris}
+							imgAlt="Eiffel Tower"
+							title="Paris"
+							text="4 days and 2 nights"
+							buttonText="199€ "></Card>
 					</div>
 				</div>
 				<div
@@ -100,41 +100,41 @@ const CardContainer = () => {
 					aria-labelledby="pills-offers-tab">
 					<div className="row">
 						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€ "></Card>
+							imgSrc={amsterdam}
+							imgAlt="Amsterdam"
+							title="Amsterdam"
+							text="3 days and 2 nights"
+							buttonText="99€"></Card>
 						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€ "></Card>
+							imgSrc={malaga}
+							imgAlt="Malaga"
+							title="Malaga"
+							text="5 days with Manu - All inclusive"
+							buttonText="49€ "></Card>
 						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€ "></Card>
+							imgSrc={rome}
+							imgAlt="Rome Colosseum"
+							title="Rome"
+							text="3 Nights - Five Stars Hotel"
+							buttonText="249€ "></Card>
 						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€ "></Card>
+							imgSrc={seville}
+							imgAlt="Seville"
+							title="Seville"
+							text="3 days and 2 nights"
+							buttonText="79€ "></Card>
 						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€ "></Card>
+							imgSrc={berlin}
+							imgAlt="Brandenburg gate"
+							title="Berlin"
+							text="5 days and 3 nights"
+							buttonText="239€ "></Card>
 						<Card
-							imgSrc="http://lorempixel.com/300/200/nature"
-							imgAlt="..."
-							title="Málaga"
-							text="5 días y 3 noches"
-							buttonText="59€ "></Card>
+							imgSrc={bilbao}
+							imgAlt="Guggenheim Museum"
+							title="Bilbao"
+							text="3 days and 2 nights"
+							buttonText="149€ "></Card>
 					</div>
 				</div>
 			</div>
