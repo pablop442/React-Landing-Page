@@ -10,20 +10,18 @@ import Navbar from "./navbar.jsx";
 import SearchBar from "./searchBar.jsx";
 import Footer from "./footer.jsx";
 import ParallaxContainer from "./parallaxContainer.jsx";
+import BlogCard from "./blogCard.jsx";
 
 const Home = () => {
 	return (
 		<div>
 			<HeaderTop></HeaderTop>
-
 			<Navbar></Navbar>
-
-			<div className="container">
-				<Carrousel></Carrousel>
-			</div>
+			<Carrousel></Carrousel>
 			<SearchBar />
-			<CardContainer></CardContainer>
+			<BlogCard />
 			<ParallaxContainer />
+			<CardContainer></CardContainer>
 			<Footer />
 		</div>
 	);
