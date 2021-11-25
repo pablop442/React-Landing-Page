@@ -1,8 +1,7 @@
+//Import React
 import React from "react";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-
+//Import components
 import CardContainer from "./cardContainer.jsx";
 import Carrousel from "./carrousel.jsx";
 import HeaderTop from "./headerTop.jsx";

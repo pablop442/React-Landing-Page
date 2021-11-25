@@ -3,6 +3,8 @@ import React from "react";
 
 //Import styles
 import { FcLike } from "react-icons/fc";
+
+//Import image
 import BrooklynBridge from "../../img/BrooklynBridge.jpg";
 
 const BlogCard = () => {

@@ -5,7 +5,7 @@ import SlideOne from "./slide1.jsx";
 import SlideTwo from "./slide2.jsx";
 import SlideThree from "./slide3.jsx";
 
-const Carrousel = props => {
+const Carrousel = () => {
 	return (
 		<div className="container">
 			<div

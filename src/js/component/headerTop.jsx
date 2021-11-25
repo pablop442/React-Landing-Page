@@ -1,5 +1,7 @@
+//Import React
 import React from "react";
 
+//Import image
 import logo4Geeks from "../../img/logo4geeksAzul2.png";
 
 const HeaderTop = () => {
