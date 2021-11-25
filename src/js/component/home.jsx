@@ -9,6 +9,7 @@ import HeaderTop from "./headerTop.jsx";
 import Navbar from "./navbar.jsx";
 import SearchBar from "./searchBar.jsx";
 import Footer from "./footer.jsx";
+import ParallaxContainer from "./parallaxContainer.jsx";
 
 const Home = () => {
 	return (
@@ -22,6 +23,7 @@ const Home = () => {
 			</div>
 			<SearchBar />
 			<CardContainer></CardContainer>
+			<ParallaxContainer />
 			<Footer />
 		</div>
 	);
