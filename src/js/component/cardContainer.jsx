@@ -1,6 +1,19 @@
 import React from "react";
 import Card from "./card.jsx";
 
+import amsterdam from "../../img/AmsterdamOk.jpg";
+import andorra from "../../img/AndorraOk.jpg";
+import berlin from "../../img/BerlinOk.jpg";
+import bilbao from "../../img/BilbaoOk.jpg";
+import london from "../../img/LondonOk.jpg";
+import malaga from "../../img/MalagaOk.jpg";
+import newDelhi from "../../img/NewDelhiOk.jpg";
+import newYork from "../../img/NewYorkOk.jpg";
+import paris from "../../img/ParisOk.jpg";
+import porto from "../../img/PortoOk.jpg";
+import rome from "../../img/RomeOk.jpg";
+import seville from "../../img/SevilleOk.jpg";
+
 const CardContainer = () => {
 	return (
 		<div className="container mt-4">
@@ -18,7 +31,7 @@ const CardContainer = () => {
 						role="tab"
 						aria-controls="pills-home"
 						aria-selected="true">
-						Mejores destinos
+						Best Destinations
 					</button>
 				</li>
 				<li className="nav-item" role="presentation">
@@ -31,7 +44,7 @@ const CardContainer = () => {
 						role="tab"
 						aria-controls="pills-offers"
 						aria-selected="false">
-						Ofertas
+						Special Offers
 					</button>
 				</li>
 			</ul>
@@ -47,37 +60,37 @@ const CardContainer = () => {
 							imgAlt="..."
 							title="Málaga"
 							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
+							buttonText="59€"></Card>
 						<Card
 							imgSrc="http://lorempixel.com/300/200/nature"
 							imgAlt="..."
 							title="Málaga"
 							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
+							buttonText="59€ "></Card>
 						<Card
 							imgSrc="http://lorempixel.com/300/200/nature"
 							imgAlt="..."
 							title="Málaga"
 							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
+							buttonText="59€ "></Card>
 						<Card
 							imgSrc="http://lorempixel.com/300/200/nature"
 							imgAlt="..."
 							title="Málaga"
 							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
+							buttonText="59€ "></Card>
 						<Card
 							imgSrc="http://lorempixel.com/300/200/nature"
 							imgAlt="..."
 							title="Málaga"
 							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
+							buttonText="59€ "></Card>
 						<Card
 							imgSrc="http://lorempixel.com/300/200/nature"
 							imgAlt="..."
 							title="Málaga"
 							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
+							buttonText="59€ "></Card>
 					</div>
 				</div>
 				<div
@@ -91,37 +104,37 @@ const CardContainer = () => {
 							imgAlt="..."
 							title="Málaga"
 							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
+							buttonText="59€ "></Card>
 						<Card
 							imgSrc="http://lorempixel.com/300/200/nature"
 							imgAlt="..."
 							title="Málaga"
 							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
+							buttonText="59€ "></Card>
 						<Card
 							imgSrc="http://lorempixel.com/300/200/nature"
 							imgAlt="..."
 							title="Málaga"
 							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
+							buttonText="59€ "></Card>
 						<Card
 							imgSrc="http://lorempixel.com/300/200/nature"
 							imgAlt="..."
 							title="Málaga"
 							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
+							buttonText="59€ "></Card>
 						<Card
 							imgSrc="http://lorempixel.com/300/200/nature"
 							imgAlt="..."
 							title="Málaga"
 							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
+							buttonText="59€ "></Card>
 						<Card
 							imgSrc="http://lorempixel.com/300/200/nature"
 							imgAlt="..."
 							title="Málaga"
 							text="5 días y 3 noches"
-							buttonText="59€  >>"></Card>
+							buttonText="59€ "></Card>
 					</div>
 				</div>
 			</div>
