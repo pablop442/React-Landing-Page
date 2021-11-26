@@ -5,19 +5,19 @@ import React from "react";
 import PropTypes from "prop-types";
 
 //Import Images
-import beachImg from "../../img/beach.jpg";
+import Maldives from "../../img/Maldives.jpg";
 
 const SlideOne = props => {
 	return (
 		<div className="carousel-item active">
 			<img
-				src={beachImg}
+				src={Maldives}
 				className="d-block w-100"
 				alt="Maldives beach image"
 			/>
 			<div className="carousel-caption d-none d-md-block">
-				<h5 className="title">{props.title}</h5>
-				<p className="text">{props.text}</p>
+				<h3 className="title">{props.title}</h3>
+				<h6 className="text">{props.text}</h6>
 			</div>
 		</div>
 	);

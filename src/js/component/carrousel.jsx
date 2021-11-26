@@ -35,9 +35,9 @@ const Carrousel = () => {
 				<div className="carousel-inner">
 					<SlideOne
 						title="The best destinations, competitive prices"
-						text="In 4Geeks Travel our mission is to make you have a memorable vacation"></SlideOne>
+						text="In 4Geeks Travel we will make you have a memorable vacation"></SlideOne>
 					<SlideTwo
-						title="Plane tickets, packages, hotels and more "
+						title="Plane tickets, packages, hotels and more... "
 						text="Try our flight finder. Choose a destination and we will show you the best prices"></SlideTwo>
 					<SlideThree
 						title={
