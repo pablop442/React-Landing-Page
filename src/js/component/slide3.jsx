@@ -5,15 +5,15 @@ import React from "react";
 import PropTypes from "prop-types";
 
 //Import Images
-import cityImg from "../../img/city.jpg";
+import Venecia from "../../img/Venecia.jpg";
 
 const SlideThree = props => {
 	return (
 		<div className="carousel-item">
-			<img src={cityImg} className="d-block w-100" alt="City image" />
+			<img src={Venecia} className="d-block w-100" alt="City image" />
 			<div className="carousel-caption d-none d-md-block">
-				<h5 className="title">{props.title}</h5>
-				<p className="text">{props.text}</p>
+				<h3 className="title">{props.title}</h3>
+				<h6 className="text">{props.text}</h6>
 			</div>
 		</div>
 	);
