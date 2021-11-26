@@ -5,19 +5,15 @@ import React from "react";
 import PropTypes from "prop-types";
 
 //Import Images
-import mountainImg from "../../img/mountain.jpg";
+import Swiss from "../../img/Swiss.jpg";
 
 const SlideTwo = props => {
 	return (
 		<div className="carousel-item">
-			<img
-				src={mountainImg}
-				className="d-block w-100"
-				alt="Mountain image"
-			/>
+			<img src={Swiss} className="d-block w-100" alt="Mountain image" />
 			<div className="carousel-caption d-none d-md-block">
-				<h5 className="title">{props.title}</h5>
-				<p className="text">{props.text}</p>
+				<h3 className="title">{props.title}</h3>
+				<h6 className="text">{props.text}</h6>
 			</div>
 		</div>
 	);
